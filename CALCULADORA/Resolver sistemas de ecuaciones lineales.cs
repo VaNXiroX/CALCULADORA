@@ -243,5 +243,34 @@ namespace CALCULADORA
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
+
+        private void btn_derivar_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+            form1.FormClosed += (s, args) => this.Close();
+        }
+
+        private void btn_integracion_Click(object sender, EventArgs e)
+        {
+            Integracion integracion = new Integracion();
+            integracion.Show();
+            this.Hide();
+            integracion.FormClosed += (s, args) => this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Encontrar_raices encontrar_Raices = new Encontrar_raices();
+            encontrar_Raices.Show();
+            this.Hide();
+            encontrar_Raices.FormClosed += (s, args) => this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

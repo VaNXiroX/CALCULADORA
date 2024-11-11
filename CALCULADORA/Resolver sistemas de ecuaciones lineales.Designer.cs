@@ -98,6 +98,7 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "Resolver sistemas de ecuaciones no lineales";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -107,6 +108,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Encontrar raices";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btn_integracion
             // 
@@ -116,6 +118,7 @@
             this.btn_integracion.TabIndex = 8;
             this.btn_integracion.Text = "Integracion";
             this.btn_integracion.UseVisualStyleBackColor = true;
+            this.btn_integracion.Click += new System.EventHandler(this.btn_integracion_Click);
             // 
             // btn_derivar
             // 
@@ -125,6 +128,7 @@
             this.btn_derivar.TabIndex = 7;
             this.btn_derivar.Text = "Derivar";
             this.btn_derivar.UseVisualStyleBackColor = true;
+            this.btn_derivar.Click += new System.EventHandler(this.btn_derivar_Click);
             // 
             // btn_salir
             // 

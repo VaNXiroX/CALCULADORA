@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -89,7 +90,6 @@
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.maxIter = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -110,6 +110,16 @@
             this.panel3.Size = new System.Drawing.Size(110, 616);
             this.panel3.TabIndex = 8;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 324);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 78);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(3, 408);
@@ -127,6 +137,7 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "Resolver sistemas de ecuaciones no lineales";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -136,6 +147,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Encontrar raices";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btn_integracion
             // 
@@ -145,6 +157,7 @@
             this.btn_integracion.TabIndex = 8;
             this.btn_integracion.Text = "Integracion";
             this.btn_integracion.UseVisualStyleBackColor = true;
+            this.btn_integracion.Click += new System.EventHandler(this.btn_integracion_Click);
             // 
             // btn_derivar
             // 
@@ -756,16 +769,6 @@
             this.label25.Size = new System.Drawing.Size(404, 20);
             this.label25.TabIndex = 63;
             this.label25.Text = "Numero de iteraciones ( recomendado menor a 100 )";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 324);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 78);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // sistemas_no_lineales
             // 

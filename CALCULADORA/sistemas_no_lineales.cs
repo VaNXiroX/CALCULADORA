@@ -182,6 +182,27 @@ namespace CALCULADORA
             this.Hide();
             resolver_Sistemas_De_Ecuaciones_Lineales.FormClosed += (s, args) => this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Encontrar_raices encontrar_Raices = new Encontrar_raices(); 
+            encontrar_Raices.Show();
+            this.Hide();
+            encontrar_Raices.FormClosed += (s, args) => this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_integracion_Click(object sender, EventArgs e)
+        {
+            Integracion integracion = new Integracion();    
+            integracion.Show(); 
+            this.Hide();    
+            integracion.FormClosed += (s,args) =
+        }
     }
  }
 
