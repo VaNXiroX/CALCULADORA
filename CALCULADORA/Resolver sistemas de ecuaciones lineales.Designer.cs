@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button4);
@@ -68,8 +70,18 @@
             this.panel3.Controls.Add(this.btn_salir);
             this.panel3.Location = new System.Drawing.Point(2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(110, 573);
+            this.panel3.Size = new System.Drawing.Size(110, 616);
             this.panel3.TabIndex = 9;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(3, 407);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(107, 53);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Interpolacion";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button2
             // 
@@ -83,12 +95,13 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(3, 426);
+            this.button5.Location = new System.Drawing.Point(3, 466);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(104, 51);
             this.button5.TabIndex = 11;
             this.button5.Text = "Derivadas aproximadas ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -134,7 +147,7 @@
             // 
             this.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_salir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_salir.Location = new System.Drawing.Point(-7, 523);
+            this.btn_salir.Location = new System.Drawing.Point(-7, 563);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(117, 50);
             this.btn_salir.TabIndex = 7;
@@ -333,7 +346,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(991, 574);
+            this.ClientSize = new System.Drawing.Size(1009, 621);
             this.Controls.Add(this.btn_jacobi);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -384,5 +397,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_jacobi;
+        private System.Windows.Forms.Button button6;
     }
 }

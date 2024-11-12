@@ -30,6 +30,7 @@
         {
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btn_integracion = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtLimiteSuperior = new System.Windows.Forms.TextBox();
             this.txtLimiteInferior = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -84,6 +84,16 @@
             this.panel3.Size = new System.Drawing.Size(110, 616);
             this.panel3.TabIndex = 7;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(3, 324);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 78);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(6, 410);
@@ -92,6 +102,7 @@
             this.button5.TabIndex = 11;
             this.button5.Text = "Derivadas aproximadas ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -315,16 +326,6 @@
             this.txtLimiteInferior.Name = "txtLimiteInferior";
             this.txtLimiteInferior.Size = new System.Drawing.Size(60, 22);
             this.txtLimiteInferior.TabIndex = 15;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(3, 324);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 78);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Integracion
             // 

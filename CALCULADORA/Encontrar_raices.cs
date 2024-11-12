@@ -183,6 +183,22 @@ namespace CALCULADORA
             this.Hide();
             resolver_Sistemas_De_Ecuaciones_Lineales.FormClosed += (s, args) => this.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Interpolacion interpolacion = new Interpolacion();
+            interpolacion.Show();
+            this.Hide();
+            interpolacion.FormClosed += (s, args) => this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Diferenciacion diferenciacion = new Diferenciacion();
+            diferenciacion.Show();
+            this.Hide();
+            diferenciacion.FormClosed += (s, args) => this.Close();
+        }
     }
 
 }

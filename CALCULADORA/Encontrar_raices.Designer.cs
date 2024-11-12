@@ -31,6 +31,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,7 +49,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtX0 = new System.Windows.Forms.TextBox();
             this.panelTeclado = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -76,6 +77,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button4);
@@ -88,14 +90,35 @@
             this.panel3.Size = new System.Drawing.Size(110, 616);
             this.panel3.TabIndex = 7;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(3, 408);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(107, 53);
+            this.button6.TabIndex = 17;
+            this.button6.Text = "Interpolacion";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 324);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 78);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(0, 408);
+            this.button5.Location = new System.Drawing.Point(0, 467);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(114, 51);
             this.button5.TabIndex = 11;
             this.button5.Text = "Derivadas aproximadas ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -253,16 +276,6 @@
             this.panelTeclado.Size = new System.Drawing.Size(364, 172);
             this.panelTeclado.TabIndex = 12;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 324);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 78);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Resolver sistemas de ecuaciones lineales";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // Encontrar_raices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -315,5 +328,6 @@
         private System.Windows.Forms.TextBox txtX0;
         private System.Windows.Forms.Panel panelTeclado;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button6;
     }
 }

@@ -270,7 +270,26 @@ namespace CALCULADORA
 
         private void button4_Click(object sender, EventArgs e)
         {
+            sistemas_no_lineales Sistemas_No_Lineales = new sistemas_no_lineales();
+            Sistemas_No_Lineales.Show();
+            this.Hide();
+            Sistemas_No_Lineales.FormClosed += (s, args) => this.Close();
+        }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Interpolacion interpolacion = new Interpolacion();
+            interpolacion.Show();
+            this.Hide();
+            interpolacion.FormClosed += (s, args) => this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Diferenciacion diferenciacion = new Diferenciacion();
+            diferenciacion.Show();
+            this.Hide();
+            diferenciacion.FormClosed += (s, args) => this.Close();
         }
     }
 }
