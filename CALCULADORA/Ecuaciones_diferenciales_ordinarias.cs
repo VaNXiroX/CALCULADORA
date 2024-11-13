@@ -29,7 +29,7 @@ namespace CALCULADORA
                 {
                     MessageBox.Show("El orden debe ser un número entero entre 0 y 20.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
-                }
+                }   
 
                 string taylorSeries = CalculateTaylorSeries(function, expansionPoint, order);
                 MessageBox.Show("La serie de Taylor es:\n\n" + taylorSeries, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);

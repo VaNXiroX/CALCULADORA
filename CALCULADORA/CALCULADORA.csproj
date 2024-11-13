@@ -214,11 +214,13 @@
     <Compile Include="Diferenciacion.Designer.cs">
       <DependentUpon>Diferenciacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ecuaciones_diferenciales_ordinarias.cs">
+    <Compile Include="..\..\..\..\OneDrive\Escritorio\Ecuaciones_diferenciales_ordinarias.cs">
       <SubType>Form</SubType>
+      <Link>Ecuaciones_diferenciales_ordinarias.cs</Link>
     </Compile>
-    <Compile Include="Ecuaciones_diferenciales_ordinarias.Designer.cs">
+    <Compile Include="..\..\..\..\OneDrive\Escritorio\Ecuaciones_diferenciales_ordinarias.Designer.cs">
       <DependentUpon>Ecuaciones_diferenciales_ordinarias.cs</DependentUpon>
+      <Link>Ecuaciones_diferenciales_ordinarias.Designer.cs</Link>
     </Compile>
     <Compile Include="Encontrar_raices.cs">
       <SubType>Form</SubType>
@@ -261,8 +263,9 @@
     <EmbeddedResource Include="Diferenciacion.resx">
       <DependentUpon>Diferenciacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ecuaciones_diferenciales_ordinarias.resx">
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Escritorio\Ecuaciones_diferenciales_ordinarias.resx">
       <DependentUpon>Ecuaciones_diferenciales_ordinarias.cs</DependentUpon>
+      <Link>Ecuaciones_diferenciales_ordinarias.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Encontrar_raices.resx">
       <DependentUpon>Encontrar_raices.cs</DependentUpon>
